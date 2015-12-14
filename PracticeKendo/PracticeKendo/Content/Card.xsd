@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xs:schema id="Card" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!--complexType-->
+  <xs:element name="Result">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CardList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Card" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CardInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="CardNumber" type="xs:double">
+                          </xs:element>
+                          <xs:element name="CardNumberFull" type="xs:string">
+                          </xs:element>
+                          <xs:element name="CardProdCode" type="xs:string">
+                          </xs:element>
+                          <xs:element name="CardProdName" type="xs:string">
+                          </xs:element>
+                          <xs:element name="CardOpenDate" type="xs:string">
+                          </xs:element>
+                          <xs:element name="CardTermDate" type="xs:double">
+                          </xs:element>
+                          <xs:element name="CardStatusCode" type="xs:int">
+                          </xs:element>
+                          <xs:element name="CardStatusName" type="xs:string">
+                          </xs:element>
+                          <xs:element name="CardCurISO" type="xs:string">
+                          </xs:element>
+                          <xs:element name="AccTypeName" type="xs:string">
+                          </xs:element>
+                          <xs:element name="Account" type="xs:string">
+                          </xs:element>
+                          <xs:element name="CardHolder" type="xs:string">
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CardTransactions">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Transaction" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="StartDate" type="xs:string">
+                                </xs:element>
+                                <xs:element name="EndDate" type="xs:string">
+                                </xs:element>
+                                <xs:element name="CardMask" type="xs:double">
+                                </xs:element>
+                                <xs:element name="TransDate" type="xs:string">
+                                </xs:element>
+                                <xs:element name="Account" type="xs:double">
+                                </xs:element>
+                                <xs:element name="Category" type="xs:string">
+                                </xs:element>
+                                <xs:element name="CategoryName" type="xs:string">
+                                </xs:element>
+                                <xs:element name="Ammount" type="xs:double">
+                                </xs:element>
+                                <xs:element name="TransType" type="xs:string">
+                                </xs:element>
+                                <xs:element name="TransTypeName" type="xs:string">
+                                </xs:element>
+                                <xs:element name="Currency" type="xs:string">
+                                </xs:element>
+                                <xs:element name="Details" type="xs:string">
+                                </xs:element>
+                                <xs:element name="City" type="xs:string">
+                                </xs:element>
+                                <xs:element name="Country" type="xs:string">
+                                </xs:element>
+                                <xs:element name="ID" type="xs:double">
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Id" type="xs:double"></xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+
+  </xs:element>
+</xs:schema>

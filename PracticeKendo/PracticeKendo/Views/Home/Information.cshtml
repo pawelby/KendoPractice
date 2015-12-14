@@ -1,0 +1,60 @@
+﻿@model IEnumerable<PracticeKendo.Models.CardModel>
+
+@{
+    ViewBag.Title = "Информация";
+}
+
+<br />
+
+@{
+    if (!Model.ToList().Any())
+    {
+        <h5 class="text-muted">Информация по картам отсутствует.</h5>
+    }
+}
+
+@foreach (var item in Model)
+{
+    <div class="container container-card">
+        @{
+            if (string.IsNullOrEmpty(item.CardInfo.ToString()))
+            {
+                <h5 class="text-muted">Информация о карте отсутствует.</h5>
+            }
+            else
+            {
+                @Html.Raw(item.CardInfo)
+            }
+        }
+    </div>
+    <br />
+    <div id="transactionsGrid">
+        @{
+            if (item.Transactions.Count == 0)
+            {
+                <h5 class="text-muted">Транзакции по карте отсутствуют.</h5>
+            }
+            else
+            {
+                @(Html.Kendo().Grid(item.Transactions)
+              .Name("grid")
+              .Columns(columns =>
+              {
+                  columns.Bound(c => c.Id).Title("Номер транзакции");
+                  columns.Bound(c => c.TransactionDate).Title("Время транзакции");
+                  columns.Bound(c => c.TransTypeName).Title("Тип операции");
+                  columns.Bound(c => c.CategoryName).Title("Статус операции");
+                  columns.Bound(c => c.Ammount).Title("Сумма в валюте операции");
+                  columns.Bound(c => c.City).Title("Место");
+                  columns.Bound(c => c.Country).Title("Страна");
+                  columns.Bound(c => c.Details).Title("Детализация");
+              })
+            )
+            }
+        }
+        
+    </div>
+    <br />
+    <br />
+}
+

@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Домашняя страница";
+}
+
+<form method="post" action='@Url.Action("Save")'>
+    <div class="demo-section">
+        <h2 class="text-danger">
+            @ViewBag.Result
+        </h2>
+        <h5 class="text-muted">Выберите файл импорта *.xml на своем локальном диске и нажмите кнопку "Отравить".</h5>
+        <br />
+        @(Html.Kendo().Upload()
+              .Name("fileToUpload")
+              .Multiple(false)
+              .Messages(e => e.Select("Выберите файл"))
+              .Events(events => events
+                  .Select("onSelect")
+              )
+        )
+        <p style="padding-top: 1em; text-align: right">
+            <input type="reset" value="Отмена" class="k-button k-primary" />
+            <input type="submit" value="Отправить" name="" class="k-button k-primary" />
+        </p>
+    </div>
+</form>
+<script>
+    function onSelect(e) {
+        var files = e.files;
+        $("h2.text-danger").text("");
+        $.each(files, function () {
+            if (this.size > 2*1024*1024) {
+                $("h2.text-danger").text("Размер файла не должен превышать 2 Мб.");
+                e.preventDefault();
+                return;
+            }
+            if (this.extension != ".xml") {
+                $("h2.text-danger").text("Файл должен быть только xml.");
+                e.preventDefault();
+            }
+        });
+    }
+</script>
+
+

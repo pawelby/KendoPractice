@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Result>
+  <CardList>
+    <Card Id="4.7726">
+      <CardInfo>
+        <CardNumber>4.7726</CardNumber>
+        <CardNumberFull>4***********7726, KAVALCHUK A.N.</CardNumberFull>
+        <CardProdCode>DE</CardProdCode>
+        <CardProdName>VISA Classic</CardProdName>
+        <CardOpenDate>26.09.2013</CardOpenDate>
+        <CardTermDate>09.2015</CardTermDate>
+        <CardStatusCode>01</CardStatusCode>
+        <CardStatusName>Активна</CardStatusName>
+        <CardCurISO>EUR</CardCurISO>
+        <AccTypeName>Текущий счет</AccTypeName>
+        <Account>3012 20738000 4</Account>
+        <CardHolder>KAVALCHUK A.N.</CardHolder>
+      </CardInfo>
+      <CardTransactions>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>10.01.2014 15:25:17</TransDate>
+          <Account>3012207380004</Account>
+          <Category>RVL</Category>
+          <CategoryName>Отмена</CategoryName>
+          <Ammount>55265254.00</Ammount>
+          <TransType>ATM</TransType>
+          <TransTypeName>Банкомат</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>TAKE YOUR MONEY AND GO OFF</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>47217283640322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>12.01.2014 09:07:47</TransDate>
+          <Account>3012207380004</Account>
+          <Category>RQT</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>3123705.12</Ammount>
+          <TransType>UNQ</TransType>
+          <TransTypeName>Казино</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>LOOSE MONEY</Details>
+          <City>LAS VEGAS</City>
+          <Country>USA</Country>
+          <ID>46961091840322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+      </CardTransactions>
+    </Card>
+    <Card Id="4.772336">
+      <CardInfo>
+        <CardNumber>4.7726</CardNumber>
+        <CardNumberFull>4***********7726, KAVALCHUK A.N.</CardNumberFull>
+        <CardProdCode>DE</CardProdCode>
+        <CardProdName>VISA Classic</CardProdName>
+        <CardOpenDate>26.09.2013</CardOpenDate>
+        <CardTermDate>09.2015</CardTermDate>
+        <CardStatusCode>01</CardStatusCode>
+        <CardStatusName>Активна</CardStatusName>
+        <CardCurISO>EUR</CardCurISO>
+        <AccTypeName>Текущий счет</AccTypeName>
+        <Account>3012 20738000 4</Account>
+        <CardHolder>KAVALCHUK A.N.</CardHolder>
+      </CardInfo>
+      <CardTransactions>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>10.01.2014 15:25:17</TransDate>
+          <Account>3012207380004</Account>
+          <Category>RVL</Category>
+          <CategoryName>Отмена</CategoryName>
+          <Ammount>55265254.00</Ammount>
+          <TransType>ATM</TransType>
+          <TransTypeName>Банкомат</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>TAKE YOUR MONEY AND GO OFF</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>47217283640322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>12.01.2014 09:07:47</TransDate>
+          <Account>3012207380004</Account>
+          <Category>RQT</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>3123705.12</Ammount>
+          <TransType>UNQ</TransType>
+          <TransTypeName>Казино</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>LOOSE MONEY</Details>
+          <City>LAS VEGAS</City>
+          <Country>USA</Country>
+          <ID>46961091840322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+      </CardTransactions>
+    </Card>
+    <Card Id="4.5073">
+      <CardInfo>
+        <CardNumber>4.5073</CardNumber>
+        <CardNumberFull>4***********1111, KAVALCHUK A.N.</CardNumberFull>
+        <CardProdCode>DE</CardProdCode>
+        <CardProdName>VISA Classic</CardProdName>
+        <CardOpenDate>26.09.20131111</CardOpenDate>
+        <CardTermDate>09.20153333</CardTermDate>
+        <CardStatusCode>01</CardStatusCode>
+        <CardStatusName>Активна</CardStatusName>
+        <CardCurISO>EUR</CardCurISO>
+        <AccTypeName>Текущий счет</AccTypeName>
+        <Account>3012 20738000 4</Account>
+        <CardHolder>KAVALCHUK A.N.</CardHolder>
+      </CardInfo>
+      <CardTransactions>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+        <Transaction>
+          <StartDate>01.01.2014</StartDate>
+          <EndDate>01.02.2014</EndDate>
+          <CardMask>4.7726</CardMask>
+          <TransDate>25.01.2014 22:47:00</TransDate>
+          <Account>3012207380004</Account>
+          <Category>ADC</Category>
+          <CategoryName>Завершено успешно</CategoryName>
+          <Ammount>465254.17</Ammount>
+          <TransType>STC</TransType>
+          <TransTypeName>Зачисление на карт-счет</TransTypeName>
+          <Currency>EUR</Currency>
+          <Details>RBS Balance loader</Details>
+          <City>MINSK</City>
+          <Country>BYR</Country>
+          <ID>46519990240322</ID>
+        </Transaction>
+      </CardTransactions>
+    </Card>
+  </CardList>
+</Result>
